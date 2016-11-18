@@ -1,0 +1,103 @@
+.row.header > .column {
+  min-height: auto;
+  text-align: center;
+  background: none;
+}
+.row.header > .column > h2 {
+  margin: 0;
+}
+.row.header > .column.today {
+  font-weight: bold;
+}
+.column {
+  position: relative;
+  min-height: 140px;
+  margin: 5px;
+  background: #AED6F1;
+  transition: background 1s ease;
+}
+.column:hover {
+  background: #57aae2;
+  cursor: pointer;
+}
+.column.day > date {
+  position: absolute;
+  left: 10px;
+  top: 6px;
+  line-height: 20px;
+  color: #424052;
+  font-weight: bold;
+  transition: background 1s ease;
+}
+.column.day > p {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0;
+  width: 100%;
+  left: 0px;
+  text-align: center;
+  font-size: 0.9em;
+}
+.column.active:hover > date {
+  background: #1f78b4;
+}
+.column.active > date {
+  color: #fff;
+  background: #57aae2;
+  padding: 6px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+.column.weekend,
+.column.inactive {
+  background: #D4E6F1;
+}
+.column.holiday {
+  color: #fff;
+  background: #E74C3C;
+}
+.column.holiday:hover {
+  background: #bf2718;
+}
+.column.holiday > date {
+  color: #fff;
+}
+.column.hide {
+  display: none;
+}
+@media print {
+  .column {
+    background: #D4E6F1;
+  }
+}
+/********** **********/
+/** Craven Studio Footer **/
+/********** **********/
+.cs-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  font-family: "Helvetica";
+  text-align: center;
+}
+.cs-footer a {
+  color: #000;
+}
+.cs-footer a:hover {
+  text-decoration: underline;
+}
+.cs-footer-text {
+  position: relative;
+  font-size: 12px;
+}
+.cs-footer-text:before {
+  font-size: 16px;
+  position: absolute;
+  margin-left: -16px;
+  margin-top: -2px;
+  content: "©";
+}
+.cs-color-orange {
+  color: #dc8000;
+}

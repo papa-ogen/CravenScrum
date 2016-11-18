@@ -1,0 +1,20 @@
+{
+  "name": "CravenScrum",
+  "description": "Scrum Calendar",
+  "author": "Jörgen Thelin",
+  "url": "https://github.com/papa-ogen/CravenScrum",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1"    
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/papa-ogen/CravenScrum.git"
+  }
+}

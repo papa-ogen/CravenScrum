@@ -1,0 +1,17 @@
+[{
+  "title": "Pre Study",
+  "iterations": [
+    {
+      "title": "Sprint 1",
+      "startDate": "2016-11-21",
+      "endDate": "2016-12-02",
+      "demoDate": "2016-11-17"
+    },
+    {
+      "title": "Sprint 2",
+      "startDate": "2016-12-05",
+      "endDate": "2016-12-16",
+      "demoDate": "2016-12-16"
+    }
+  ]
+}]
