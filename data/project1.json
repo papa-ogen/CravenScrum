@@ -5,7 +5,7 @@
       "title": "Sprint 1",
       "startDate": "2016-11-21",
       "endDate": "2016-12-02",
-      "demoDate": "2016-11-17"
+      "demoDate": "2016-12-02"
     },
     {
       "title": "Sprint 2",
@@ -13,5 +13,12 @@
       "endDate": "2016-12-16",
       "demoDate": "2016-12-16"
     }
+  ],
+  "events": [{
+    "title": "event title",
+    "descr": "event descr",
+    "startDate": 1480896000000,
+    "endDate": 1481155200000 
+  }
   ]
 }]
