@@ -60,4 +60,3 @@ cravenScrum.projects = (function (cs) {
   return cs;
 
 } (cravenScrum || {}));
-
